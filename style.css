@@ -60,3 +60,67 @@ h1{
         left: 110%;
     }
 }
+
+@media (max-width:669px) {
+    h1{
+        font-size: 40px;
+    }
+    .static-text{
+        position: relative;
+        top: 20px;
+    }
+    .animated-text h1 {
+        font-size: 40px;    
+    }
+    .animated-text h1::after {
+        height: 80%;
+    }
+}
+@media (max-width:412px) {
+    h1{
+        font-size: 30px;
+    }
+    .static-text{
+        position: relative;
+        top: 24px;
+    }
+    .animated-text h1 {
+        font-size: 30px;    
+    }
+}
+@media (max-width:315px) {
+    h1{
+        font-size: 21px;
+    }
+    .static-text{
+        position: relative;
+        top: 28px;
+    }
+    .animated-text h1 {
+        font-size: 21px;    
+    }
+}
+@media (max-width:221px) {
+    h1{
+        font-size: 15px;
+    }
+    .static-text{
+        position: relative;
+        top: 32px;
+    }
+    .animated-text h1 {
+        font-size: 15px;    
+    }
+}
+@media (max-width:167px) {
+    h1{
+        font-size: 8px;
+    }
+    .static-text{
+        position: relative;
+        top: 35px;
+    }
+    .animated-text h1 {
+        font-size: 8px;    
+    }
+}
